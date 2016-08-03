@@ -1,0 +1,12 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: project_management_development
+  pool: 5
+  min_messages: WARNING
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: project_management_test
+  pool: 5

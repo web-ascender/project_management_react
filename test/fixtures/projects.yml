@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyText
+  project_cost: 9.99
+
+two:
+  name: MyString
+  description: MyText
+  project_cost: 9.99
+
+# == Schema Information
+#
+# Table name: projects
+#
+#  id           :integer          not null, primary key
+#  name         :string
+#  description  :text
+#  project_cost :decimal(8, 2)
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#
